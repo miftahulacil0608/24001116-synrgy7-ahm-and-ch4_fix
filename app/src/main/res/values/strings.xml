@@ -1,0 +1,441 @@
+<resources>
+    <string name="app_name">Chapter Fourth</string>
+    <string name="title_league">League Name</string>
+    <string name="title_team">Team Name</string>
+    <string name="country_league">Country Name</string>
+    <string name="city_team">City Name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="layout_list">List</string>
+    <string name="layout_grid">Grid</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="favorite">Favorite</string>
+    <string name="notes">Notes: </string>
+    <string name="save_favorite">Save Favorite?</string>
+    <string name="msg_notes">Email: synergy7chapter4@gmail.com \nPassword: synergy7chapter4\n\nEmail: chapter4@gmail.com\nPassword: chapter4</string>
+
+
+    <string-array name="data_league_group">
+        <item>Premier League</item>
+        <item>Bundesliga</item>
+        <item>Serie A</item>
+        <item>La Liga Santander</item>
+        <item>Eredivisie</item>
+    </string-array>
+
+    <string-array name="data_image_league_group">
+        <item>@drawable/premier_league_logo</item>
+        <item>@drawable/bundesliga_logo</item>
+        <item>@drawable/serie_a_logo</item>
+        <item>@drawable/laliga_logo</item>
+        <item>@drawable/eredivisie_nuovo_logo</item>
+    </string-array>
+
+    <!--Premier League-->
+    <string-array name="list_premier_league">
+        <item>Arsenal</item>
+        <item>Aston Villa</item>
+        <item>Bournemouth</item>
+        <item>Brentford</item>
+        <item>Brighton</item>
+        <item>Burnley</item>
+        <item>Chelsea</item>
+        <item>Crystal Palace</item>
+        <item>Everton</item>
+        <item>Fullham</item>
+        <item>Liverpool</item>
+        <item>Luton Town</item>
+        <item>Manchester City</item>
+        <item>Manchester United</item>
+        <item>Newcastle United</item>
+        <item>nottingham Forest</item>
+        <item>Sheffield United</item>
+        <item>Tottenham Hotspur</item>
+        <item>West Ham United</item>
+        <item>Wolverhampton Wanderers</item>
+    </string-array>
+    <string-array name="list_image_premier_league">
+        <item>@drawable/arsenal_logo</item>
+        <item>@drawable/aston_villa_logo</item>
+        <item>@drawable/bournemouth</item>
+        <item>@drawable/brentford</item>
+        <item>@drawable/brighton</item>
+        <item>@drawable/burnley</item>
+        <item>@drawable/chelsea</item>
+        <item>@drawable/crystal_palace</item>
+        <item>@drawable/everton</item>
+        <item>@drawable/fullham</item>
+        <item>@drawable/liverpool_fix</item>
+        <item>@drawable/luton</item>
+        <item>@drawable/manchester_city</item>
+        <item>@drawable/manchester_united</item>
+        <item>@drawable/newcastle_united</item>
+        <item>@drawable/nothing_forest</item>
+        <item>@drawable/sheffield</item>
+        <item>@drawable/tottenham_spurs</item>
+        <item>@drawable/westham_united</item>
+        <item>@drawable/wolves</item>
+    </string-array>
+    <string-array name="list_city_team_premier_league">
+        <item>Emirates Stadium, London</item>
+        <item>Villa Park, Birmingham</item>
+        <item>Vitality Stadium, Bournemouth</item>
+        <item>Gtech Community Stadium, Brentford</item>
+        <item>American Express Stadium, Falmer</item>
+        <item>Turf Moor, Burnley</item>
+        <item>Stamford Bridge, London</item>
+        <item>Selhurst Park, London</item>
+        <item>Goodison Park, Liverpool</item>
+        <item>Craven Cottage, London</item>
+        <item>Anfield, Liverpool</item>
+        <item>Kenilworth Road, Luton</item>
+        <item>Etihad Stadium, Manchester</item>
+        <item>Old Trafford, Manchester</item>
+        <item>St. JamesPark, Newcastle</item>
+        <item>The City Ground, Nottingham</item>
+        <item>Bramall Lane, Sheffield</item>
+        <item>Tottenham Hotspur Stadium, London</item>
+        <item>London Stadium, London</item>
+        <item>Molineux Stadium, Wolverhampton</item>
+    </string-array>
+
+    <!--La Liga Santander-->
+    <string-array name="list_laliga">
+        <item>Real Madrid</item>
+        <item>Real Madrid</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+    </string-array>
+    <string-array name="list_image_laliga">
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+    </string-array>
+    <string-array name="list_city_team_laliga">
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Cataluna</item>
+    </string-array>
+
+    <!--Bundesliga-->
+    <string-array name="list_bundesliga">
+        <item>FC Bayern München</item>
+        <item>Borussia Dortmund</item>
+        <item>RB Leipzig</item>
+        <item>1. FC Union Berlin</item>
+        <item>Sport-Club Freiburg</item>
+        <item>Bayer 04 Leverkusen</item>
+        <item>Eintracht Frankfurt</item>
+        <item>VfL Wolfsburg</item>
+        <item>FSV Mainz 05</item>
+        <item>Borussia Mönchengladbach</item>
+        <item>FC Köln</item>
+        <item>TSG Hoffenheim</item>
+        <item>SV Werder Bremen</item>
+        <item>VfL Bochum 1848</item>
+        <item>FC Augsburg</item>
+        <item>VfB Stuttgart</item>
+        <item>SV Darmstadt 98</item>
+        <item>FC Heidenheim 1846</item>
+    </string-array>
+    <string-array name="list_image_bundesliga">
+        <item>@drawable/bayern_munchen</item>
+        <item>@drawable/dortmund</item>
+        <item>@drawable/rb_leipzig</item>
+        <item>@drawable/union_berlin</item>
+        <item>@drawable/freiburg</item>
+        <item>@drawable/bayern_leverkusen</item>
+        <item>@drawable/frankurt</item>
+        <item>@drawable/wolfsburg</item>
+        <item>@drawable/fsv_mainz</item>
+        <item>@drawable/borussioa_monchenglad</item>
+        <item>@drawable/fc_koln</item>
+        <item>@drawable/hoffein</item>
+        <item>@drawable/sv_werder</item>
+        <item>@drawable/vfl_bochum</item>
+        <item>@drawable/fc_augsburg</item>
+        <item>@drawable/vfb_stuttgart</item>
+        <item>@drawable/sv_darmstadt</item>
+        <item>@drawable/fc_heidenheim</item>
+    </string-array>
+    <string-array name="list_city_team_bundesliga">
+        <item>Allianz Arena</item>
+        <item>SIGNAL IDUNA PARK</item>
+        <item>Red Bull Arena</item>
+        <item>An der Alten Försterei</item>
+        <item>Europa-Park Stadion</item>
+        <item>BayArena</item>
+        <item>Deutsche Bank Park</item>
+        <item>Volkswagen Arena</item>
+        <item>MEWA ARENA</item>
+        <item>BORUSSIA-PARK</item>
+        <item>RheinEnergieSTADION</item>
+        <item>PreZero Arena</item>
+        <item>wohninvest WESERSTADION</item>
+        <item>Vonovia Ruhrstadion</item>
+        <item>WWK ARENA</item>
+        <item>MHPArena</item>
+        <item>Merck-Stadion am Böllenfalltor</item>
+        <item>Voith-Arena</item>
+    </string-array>
+    <!--Seria A-->
+    <string-array name="list_serie_a">
+        <item>ATALANTA</item>
+        <item>BOLOGNA</item>
+        <item>CAGLIARI</item>
+        <item>EMPOLI</item>
+        <item>FIORENTINA</item>
+        <item>FROSINONE</item>
+        <item>GENOA</item>
+        <item>HELLAS VERONA</item>
+        <item>INTER</item>
+        <item>JUVENTUS</item>
+        <item>LAZIO</item>
+        <item>LECCE</item>
+        <item>MILAN</item>
+        <item>MONZA</item>
+        <item>NAPOLI</item>
+        <item>ROMA</item>
+        <item>SALERNITANA</item>
+        <item>SASSUOLO</item>
+        <item>TORINO</item>
+        <item>UDINESE</item>
+    </string-array>
+    <string-array name="list_city_team_serie_a">
+        <item>Viale Giulio Cesare, 18, 24124 Bergamo BG</item>
+        <item>Via Andrea Costa, 174, 40134 Bologna BO</item>
+        <item>Via Raimondo Carta Raspi, 09126 Cagliari CA</item>
+        <item>Via delle Olimpiadi, 50053 Empoli FI</item>
+        <item>Viale Manfredo Fanti, 4, 50137 Firenze FI</item>
+        <item>Viale Olimpia, 03100 Frosinone FR</item>
+        <item>Via Giovanni de Prà, 1, 16139</item>
+        <item>Piazzale Olimpia,2,37138 Verona VR</item>
+        <item>Piazzale Angelo Moratti, 20151 Milano MI</item>
+        <item>Corso Gaetano Scirea, 50, 10151 Torino TO</item>
+        <item>Viale dei Gladiatori, 00135 Roma RM</item>
+        <item>Viale Stadio, 73024 Lecce LE</item>
+        <item>Piazzale Angelo Moratti, 20151 Milano MI</item>
+        <item>Via Franco Tognini, 4, 20900 Monza MB</item>
+        <item>Piazzale Vincenzo Tecchio, 80125 Napoli NA</item>
+        <item>Viale dei Gladiatori, 00135 Roma RM</item>
+        <item>Via Salvador Allende, 84131 Salerno SA</item>
+        <item>Piazzale Atleti Azzurri D`Italia, 1, 42122 Reggio Emilia RE</item>
+        <item>Via Filadelfia, 96/b, 10134 Torino TO</item>
+        <item>Viale Agostino ed Angelo Candolini, 2 , 33100 Udine UD</item>
+    </string-array>
+    <string-array name="list_image_serie_a">
+        <item>@drawable/atalanta</item>
+        <item>@drawable/bologna</item>
+        <item>@drawable/cagliari</item>
+        <item>@drawable/empoli</item>
+        <item>@drawable/fiorentina</item>
+        <item>@drawable/frosinone</item>
+        <item>@drawable/genoa_1</item>
+        <item>@drawable/hellas</item>
+        <item>@drawable/inter</item>
+        <item>@drawable/white</item>
+        <item>@drawable/lazio</item>
+        <item>@drawable/lecce</item>
+        <item>@drawable/milan</item>
+        <item>@drawable/monza</item>
+        <item>@drawable/napoli</item>
+        <item>@drawable/roma</item>
+        <item>@drawable/salernitana</item>
+        <item>@drawable/sassuolo</item>
+        <item>@drawable/torino</item>
+        <item>@drawable/udinese</item>
+    </string-array>
+    <!--Eredivisie-->
+    <string-array name="list_eredivisie">
+        <item>Real Madrid</item>
+        <item>Real Madrid</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+        <item>Barcelona</item>
+    </string-array>
+    <string-array name="list_image_eredivisie">
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/liverpool</item>
+    </string-array>
+    <string-array name="list_city_team_eredivisie">
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Madrid</item>
+        <item>Cataluna</item>
+    </string-array>
+
+
+</resources>

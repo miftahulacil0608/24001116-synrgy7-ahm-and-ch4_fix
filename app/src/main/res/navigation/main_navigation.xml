@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/listLeagueGroup">
+    <fragment
+        android:id="@+id/listLeagueGroup"
+        android:name="com.example.recyclerviewwithnavigationcomponent.ui.mvvm.fragment.LeagueFragment"
+        android:label="Chapter Fourth"
+        tools:layout="@layout/fragment_list_league_group" >
+        <action
+            android:id="@+id/action_listLeagueGroup_to_detailLeagueTeams"
+            app:destination="@id/detailLeagueTeams" />
+        <action
+            android:id="@+id/action_listLeagueGroup_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailLeagueTeams"
+        android:name="com.example.recyclerviewwithnavigationcomponent.ui.mvvm.fragment.DetailFragment"
+        android:label="Chapter Fourth"
+        tools:layout="@layout/fragment_detail_league_teams" >
+
+        <argument
+            android:name="name"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="images"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.recyclerviewwithnavigationcomponent.ui.mvvm.fragment.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_detailLeagueTeams"
+            app:destination="@id/detailLeagueTeams" />
+    </fragment>
+</navigation>
