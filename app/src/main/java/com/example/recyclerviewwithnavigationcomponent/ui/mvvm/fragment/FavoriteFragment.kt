@@ -55,6 +55,7 @@ class FavoriteFragment : Fragment() {
     private fun itemClicked(data: LeagueWithTeamsList) {
         findNavController().navigate(R.id.action_favoriteFragment_to_detailLeagueTeams).also {
             viewModel.setDataDetail(data)
+            //alhamdulillah berhasil
         }
     }
 
